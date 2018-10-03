@@ -11,7 +11,7 @@ based on  sonoff.ino - Sonoff-Tasmota firmware for iTead Sonoff, Wemos and NodeM
   - libraries and code to drive LCD oled display type ssd1306 with sonoff or electrodragon esp (define USE_SSD1306)
   - re-use of old settings to add new one.
   - add ftp server (one client only see library comment),  and access to embedded web pages in SPIFFS through web server (define USE_ElectroDragon, cause need 4 Mbts memory, works also with sonoff pow)
-  - add some USE definition for reduce size (i.e. USE_ExtraSonOff )
+  - add some USE definition for reduce size (i.e. USE_ExtraSonOff comment it to only use sonoff device)
   - set acces to interlockrelay via WEB server configuration and define USE_InterlockDelay
   - set a sequence of relays via defin USE_PowerEvenOdd
   - set a max value on analog port to shut down relays (set via web server and new use of some commands) (define USE_ADC_MAX)	
