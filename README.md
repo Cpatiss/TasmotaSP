@@ -7,7 +7,7 @@ based on  sonoff.ino - Sonoff-Tasmota firmware for iTead Sonoff, Wemos and NodeM
   
   It's add (all adds are tagged 'cpat') :
   new embedded functionalities:
-  - timer or clock for each relay (acces vi web server configuration a submenu 'config.relay' was added)
+  - timer or clock for each relay (access vi web server configuration a submenu 'config.relay' was added)
   - libraries and code to drive LCD oled display type ssd1306 with sonoff or electrodragon esp (define USE_SSD1306)
   - re-use of old settings to add new one.
   - add ftp server (one client only see library comment),  and acces to embedded web pages in SPIFFS through web server (define USE_ElectroDragon, cause need 4 Mbts memory, works also with sonoff pow)
