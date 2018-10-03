@@ -26,7 +26,7 @@ based on  sonoff.ino - Sonoff-Tasmota firmware for iTead Sonoff, Wemos and NodeM
  
  An optional LCD screen provide connection information on start, up/down activity or time otherwise (only on electrodragon cause free memory)
   
-  this change must be transposed on lastest version of tasmota as soon as possible.
+  this change would be transposed on lastest version of tasmota as soon as possible.
   
 sonoff directory is c project
 libraries directory is functionnal version of extra libraries used
@@ -49,7 +49,7 @@ celle-ci a été modifiée (toutes les modifications sont taggées 'CPAT') pour 
   Ces modifications ont été apportées pour permettre d'utiliser un sonoff dual et un electrodragon en tant que commande de volet roulant avec limiteur d'effort par détection du courant consommé.
   Attention la mise à disposition de la pin analogique sur le sonoff dual requiert beaucoup de précision.
   La détection se fait par un simple TI HWCT 5A/5ma branché sur une résistance et deux diodes de limitation de tension à 1V.
-  La montée descente du volet étant alors temporisé et commandé soit par l'interface Web , des commands (domotics,...) , des BPs branchés sur les ports libre (via les fonctionnalité add hoc de tasmota) GPIO01 et GPIO03.
+  La montée descente du volet étant alors temporisées et commandées soit par l'interface Web , des commandes (domotics,...) , des BPs branchés sur les ports libre (via les fonctionnalité add hoc de tasmota) GPIO01 et GPIO03.
   
   Un LCD optionnel peut être ajouté, il affiche alors les paramètres de connection au démarrage, le statut montée , descente pendant le fonctionnement (et la consommation de courant) , l'heure autrement (disponible seulement sur l'electrodargon à cause de la mémoire disponible).
   
