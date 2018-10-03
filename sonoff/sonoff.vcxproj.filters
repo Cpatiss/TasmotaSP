@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="sonoff.ino" />
+    <None Include="settings.ino" />
+    <None Include="support.ino" />
+    <None Include="webserver.ino" />
+    <None Include="xdrv_domoticz.ino" />
+    <None Include="xdrv_ir_send.ino" />
+    <None Include="xdrv_snfbridge.ino" />
+    <None Include="xdrv_snfled.ino" />
+    <None Include="xdrv_wemohue.ino" />
+    <None Include="xdrv_ws2812.ino" />
+    <None Include="xsns_01_counter.ino" />
+    <None Include="xsns_03_hlw8012.ino" />
+    <None Include="xsns_04_snfsc.ino" />
+    <None Include="xsns_05_ds18b20.ino" />
+    <None Include="xsns_05_ds18x20.ino" />
+    <None Include="xsns_06_dht.ino" />
+    <None Include="xsns_07_sht1x.ino" />
+    <None Include="xsns_08_htu21.ino" />
+    <None Include="xsns_09_bmp.ino" />
+    <None Include="xsns_10_bh1750.ino" />
+    <None Include="xsns_11_veml6070.ino" />
+    <None Include="xsns_12_ads1115.ino" />
+    <None Include="xsns_interface.ino" />
+    <None Include="_releasenotes.ino" />
+    <None Include="ClassDiagram.cd" />
+    <None Include="ClassDiagram1.cd" />
+    <None Include="xcpat.ino" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="__vm\.sonoff.vsarduino.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="en-GB.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="fr-FR.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="i18n.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="settings.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sonoff.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sonoff_post.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sonoff_template.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="user_config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="user_config_override.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="xcpat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Image.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="indexl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="core_esp8266_timer.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="core_esp8266_wiring_digital.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="core_esp8266_wiring_pwm.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cpat.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="sonoff.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
