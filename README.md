@@ -21,7 +21,7 @@ based on  sonoff.ino - Sonoff-Tasmota firmware for iTead Sonoff, Wemos and NodeM
   
   the pupose of this,  is to use electrodragon to drive shutter roller with timer up and down , stop on double press , stop on max current.
   You can also use dual sonoff but it's not easy to provide analog input pin.
-  max current is detected by use a simple C.T. HWCT 5A/5ma with resitor and dual diode to limit voltage at 1V (see picture included).
+  Max current is detected by use a simple C.T. HWCT 5A/5ma with resistor and dual diodes to limit voltage at 1V (see picture included).
   Up and down can be set by command (domitics, ...) or web interface as well as 2 push buttons gpi01, gpi03 (using tasmota extra pin function)
  
  An optional LCD screen provide connection information on start, up/down activity or time otherwise (only on electrodragon cause free memory)
