@@ -28,3 +28,4 @@ based on  sonoff.ino - Sonoff-Tasmota firmware for iTead Sonoff, Wemos and NodeM
   
   this change must be transposed on lastest version of tasmota as soon as possible.
   
+sonoff is avaible on sonoff branch
